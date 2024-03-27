@@ -32,7 +32,55 @@ const employees = [
   }
 ];
 
+
 console.log('array of employee data: ',  employees );
+///////////////////////////////////////////////////////////////////////////
+
+// TASKS:
+// CREATE A LOOP 
+// CREATE A NEW ARRAY OF OBJECTS -----> compArray
+// Take data from the employees to give them a new array of values
+  // name               -   employees(i).name   --or--   employee.name
+  // bonusPercentage        0%  4%  6%  10% 
+  // totalBonus             annualSalary x bonusPercentage     --- NEEDS TO BE ROUNDED
+  // totalCompensation      annualSalary + totalBonus
+//return compArray
+
+function calculateIndividualEmployeeBonus( employee ) {  
+    
+  let bonusPercentage;
+  
+
+
+  if (employee.reviewRating <= 2){
+    bonusPercentage = 0;
+  }else if (employee.reviewRating === 3){
+    bonusPercentage = .04;
+  }else if (employee.reviewRating === 4){
+    bonusPercentage = .06;
+  }else if (employee.reviewRating === 5){
+      bonusPercentage = .10;
+  }
+  
+
+
+  }
+}
+
+
+  calculateIndividualEmployeeBonus(console.log(employees));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
