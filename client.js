@@ -1,3 +1,7 @@
+//See Flow Chart for Project Layout. 
+
+
+
 // array of employee objects
 const employees = [
   {
